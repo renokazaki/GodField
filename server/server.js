@@ -14,7 +14,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: "https://chat-app-5y9l.onrender.com",
+    origin: "https://godfield.onrender.com",
     methods: ["GET", "POST"],
   },
 });

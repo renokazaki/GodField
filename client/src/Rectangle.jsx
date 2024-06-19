@@ -2,7 +2,7 @@ import "./App.css";
 import io from "socket.io-client";
 import { useState, useEffect } from "react";
 
-const socket = io.connect("https://chat-app-5y9l.onrender.com");
+const socket = io.connect("https://godfield.onrender.com");
 const Rectagle = () => {
   const [touchedIndices, setTouchedIndices] = useState(Array(9).fill(null));
   const [currentUser, setCurrentUser] = useState("user1");
