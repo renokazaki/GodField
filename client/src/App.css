@@ -1,34 +1,44 @@
-.con{
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.con {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
 }
 
-.container{
+.container {
   display: grid;
   grid-template-columns: repeat(3, 100px);
   gap: 10px;
 }
-.rectangle{
-  height:100px;
-  width:100px;
+
+.rectangle {
+  height: 100px;
+  width: 100px;
   background-color: rgb(159, 116, 15);
-  border:1px solid black;
+  border: 1px solid black;
 }
-.circle{
+
+.circle {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.circleText{
+
+.circleText {
   font-size: 70px;
 }
 
-p{
+p {
   font-size: 10px;
 }
+
 button {
   height: 20px;
 }
